@@ -6,6 +6,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>alibaba</module>
+        <module>netflix</module>
     </modules>
 
     <groupId>com.sc</groupId>
