@@ -1,0 +1,12 @@
+dubbo:
+  scan:
+    base-packages: com.sc.service
+  protocols:
+    dubbo:
+      name: dubbo
+      port: -1
+  registry:
+    address: spring-cloud://172.31.57.63:8848
+  application:
+    qos:
+      enable: false
