@@ -1,0 +1,17 @@
+server:
+  port: 9527
+spring:
+  application:
+    name: nacos-provider
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 172.31.57.63:8848
+        ip: 172.31.83.72
+      config:
+        server-addr: 172.31.57.63:8848
+        file-extension: yml
+        prefix: ${spring.application.name}
+        namespace: 360177e1-914f-4b52-9dc2-b1734377bcb5
+        group: DEFAULT_GROUP
+

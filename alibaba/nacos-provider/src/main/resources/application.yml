@@ -1,10 +1,12 @@
-server:
-  port: 9527
-spring:
-  application:
-    name: nacos-provider
-  cloud:
-    nacos:
-      discovery:
-        server-addr: 172.31.57.63:8848
-        ip: 172.31.83.72
+#server:
+#  port: 9527
+#nacos:
+#  config
+#spring:
+#  application:
+#    name: nacos-provider
+#  cloud:
+#    nacos:
+#      discovery:
+#        server-addr: 172.31.57.63:8848
+#        ip: 172.31.83.72
